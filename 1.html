@@ -1,36 +1,69 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bài 1</title>
-    <style>
-        div{
-            width: 700px;
-            height: 540spx;
-            border-style: solid;
-            border-width: 1px;
-            border-bottom-width: 3px;
-        }
-        h2{
-            text-align: center;
-        }
-        #link{
-            color: rgb(20, 133, 39);
-            font-style: italic;
-            text-align: right;
-            font-weight: bold;
-        }
-        #para{
-             text-align: justify;
-             padding:10px;
-        }
-    </style>
+    <title>Document</title>
 </head>
 <body>
-    <a href="TUD.html" target="_self">Bài 1</a> <a href="1.html" target="_self">Bài 2</a> <a href="2.html" target="_self">Bài 3</a> <a href="3.html" target="_self">Bài 4</a>
-   <div> <h2 style="color: red;" >CSS</h2>
-    <p id="link">www.3wschool.com</p>
-    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit illo magni quae incidunt tenetur neque dolor adipisci quos earum laboriosam error sunt quibusdam vel eos ipsa, velit id corrupti eius eum quaerat optio nisi dignissimos obcaecati quidem. Natus numquam voluptatibus nam eius nesciunt adipisci inventore ipsum unde delectus temporibus deserunt in, consectetur qui nemo molestias commodi minus et est. Necessitatibus dolor quidem omnis ea unde provident sequi praesentium explicabo consequuntur, fugit iusto libero earum officiis culpa debitis tempore blanditiis dolores ratione quas tempora aut beatae? Molestiae odio quo necessitatibus modi doloremque neque assumenda! Hic, itaque fugiat qui fuga, illo voluptates quas, illum minima magnam exercitationem ad. Soluta, vitae! Temporibus facilis tenetur, delectus quae sed sequi dicta excepturi ipsum inventore facere labore minima, nisi doloremque explicabo aliquid, quas in optio placeat commodi? Molestiae praesentium excepturi explicabo eos beatae ab, deserunt temporibus ducimus, ex error minus, itaque corporis quam voluptatum voluptatem nihil id commodi fuga consequuntur debitis quae quidem optio vero. Saepe hic ipsum quod explicabo, accusamus obcaecati recusandae nesciunt dolor consectetur veniam consequuntur, laboriosam necessitatibus porro culpa ducimus. Dignissimos vitae consequuntur quidem at minus vero laborum expedita asperiores laboriosam suscipit porro dolore doloribus qui perspiciatis accusamus, velit debitis esse assumenda. Maiores consequatur labore tempore sint sapiente nemo non maxime harum nesciunt incidunt perspiciatis magnam nihil, optio doloremque autem, sit ea recusandae illum porro. Placeat, tempore ad? Sapiente quibusdam error natus quo ullam! Culpa quasi sequi velit exercitationem inventore nemo, possimus animi debitis dignissimos hic, officiis maxime, laborum quae. Ipsam accusamus, similique amet quae perferendis quaerat, dolorem deleniti eius tempore impedit quos error non iure! Sint maxime cupiditate pariatur eos necessitatibus iusto rem accusamus at molestiae veritatis, iure corporis blanditiis repudiandae quae incidunt aperiam voluptatibus explicabo, reiciendis temporibus autem mollitia placeat impedit aliquid?Cum magni reiciendis tempora expedita nostrum eum nam cumque.</p></div>
+    <div class="exercises">
+        <a href="1.html">Bài 1</a> 
+        <a href="2.html">Bài 2</a> 
+        <a href="3.html">Bài 3</a> 
+        <a href="4.html">Bài 4</a>
+    </div>
+    <style> 
+     .exercises {
+            margin-bottom: 20px;
+        }
+
+        .exercises a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+            padding: 5px 10px;
+            margin-right: 10px;
+            border-radius: 5px;
+            transition: color 0.3s;
+        }
+
+        .exercises a:hover {
+            text-decoration: underline;
+        }
+
+        .exercises a:visited {
+            color: red;  
+        }
+
+        .exercises a:active {
+            color: green; 
+        }
+
+        .box1{
+            height: 100px;
+            width: 100px;
+            border-style: solid;
+            border-width: 5px;
+            background-color: orangered;
+        }
+        .box2{
+            height: 100px;
+            width: 100px;
+            border-style: solid;
+            border-width: 5px;
+            background-color: orangered;
+            margin-left:108px;}
+            .box3{
+            height: 100px;
+            width: 100px;
+            border-style: solid;
+            border-width: 5px;
+            background-color: orangered;
+            border-color: rgb(107, 198, 17);
+            margin-left: 217px;}
+    </style>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
 </body>
 </html>
